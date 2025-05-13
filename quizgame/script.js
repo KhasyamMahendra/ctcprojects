@@ -14,6 +14,28 @@ const questions = [
     answers: ["1995", "2000", "1990", "1985"],
     correct: "1995",
   },
+  {
+    question: "Which one is popular java frontend framework?",
+    answers: ["React", "Node", "Spring", "Mongodb"],
+    correct: "React",
+  },
+  {
+    question: "Which of the following is not a semantic HTML5 tag?",
+    answers: ["article", "section", "div", "aside"],
+    correct: "div",
+  },
+  {
+    question:
+      "Which javascript method is commonly used to add element at the end of an array?",
+    answers: ["push", "append", "addToEnd", "concat"],
+    correct: "push",
+  },
+  {
+    question:
+      "Which HTTP method is typically used to retrieve data from a server?",
+    answers: ["POST", "PUT", "DELETE", "GET"],
+    correct: "GET",
+  },
 ];
 
 let currentQuestionIndex = 0;
